@@ -1,0 +1,462 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+
+}
+
+body {
+    max-width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    z-index: 2;
+    height: 6rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-bar img {
+    height: 60px;
+    width: 180px;
+    z-index: 2;
+
+
+}
+
+.btn-1 {
+    margin-left: 50rem;
+    margin-right: 2rem;
+    padding: 9px;
+    margin-top: 1rem;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    z-index: 2;
+}
+
+.btn-2 {
+    align-items: center;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    font-size: .8rem;
+    width: 5rem;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    z-index: 2;
+}
+
+.main {
+    display: flex;
+    margin-top: -6rem;
+    height: 106vh;
+
+    background-image: url(/assets/IN-en-20221228-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.overlay {
+    background: black;
+    height: 106vh;
+    position: absolute;
+    opacity: .6;
+    width: 100vw;
+    z-index: 1;
+}
+
+.heading-box {
+    color: white;
+    height: 50vh;
+    display: flex;
+    width: 60rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 2rem;
+    z-index: 2;
+}
+
+.heading-box h1 {
+    width: 41rem;
+    font-size: 3rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.heading-box h2 {
+    font-size: 1.6rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    margin-top: -0.9rem;
+}
+
+.email {
+    width: 25rem;
+    height: 3.6rem;
+    display: flex;
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.btn3 {
+
+
+    top: 8.3rem;
+    background-color: red;
+    width: 13rem;
+    font-size: 1.5rem;
+    height: 3.6rem;
+    color: white;
+    border: none;
+}
+
+.login {
+    display: flex;
+
+}
+
+hr {
+    width: 100vw;
+    height: .8rem;
+    background-color: rgb(87, 86, 86);
+    border: solid rgb(87, 86, 86);
+}
+
+/* Television section  */
+.second-container {
+    height: 70vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tv-section {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.image {
+    height: 60vh;
+    width: 30vw;
+    background-image: url(https://images.unsplash.com/photo-1597575732103-9f6d068cfa9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+
+
+}
+
+.content1 {
+    color: white;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 35rem;
+}
+
+.content1 h1 {
+    font-size: 3rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+.content1 h2 {
+    font-weight: 100;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+
+}
+
+/* Downloads Section  */
+.download {
+    height: 70vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-section {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.content2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.image2 {
+    background-image: url(/assets/mobile-0819.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 40vw;
+
+}
+
+.content2 h1 {
+    font-size: 3rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 32rem;
+
+
+}
+
+.content2 h2 {
+    font-weight: 100;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    width: 32rem;
+
+}
+
+.watch-everywhere {
+    height: 70vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.watch {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image3 {
+    background-image: url(https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    width: 30vw;
+    position: absolute;
+    left: 50rem;
+}
+
+.content3 {
+    color: white;
+    margin-right: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 35rem;
+}
+
+.content3 h1 {
+    font-size: 3rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 32rem;
+}
+
+.content3 h2 {
+    font-weight: 100;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    width: 32rem;
+}
+
+/* Children section  */
+.children-profile-section {
+    height: 70vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.For-children {
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image4 {
+    background-image: url(assets/asset\ 0.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60vh;
+    width: 30vw;
+}
+
+.content4 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10rem;
+}
+
+.content4 h1 {
+    font-size: 3rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 32rem;
+}
+
+.content4 h2 {
+    font-weight: 100;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    width: 32rem
+}
+
+/* Frequently asked questions section  */
+
+.question {
+    height: 109vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+
+}
+
+.questions {
+    background-color: #737373;
+    width: 50vw;
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    padding-left: 1.4rem;
+}
+
+.question h3 {
+    color: white;
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 37rem;
+}
+
+.log {
+    padding-bottom: 3rem;
+}
+
+footer {
+    height: 55vh;
+    display: flex;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #8c8c8c;
+}
+
+.box2 {
+    width: 60vw;
+    height: 45vh;
+}
+
+.box2 p {
+    padding-top: 1.5rem;
+    justify-content: flex-start;
+}
+
+.box2 p span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.footer-item {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-size: .9rem;
+}
+
+.items:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button {
+    position: absolute;
+    right: 61rem;
+    color: #8c8c8c;
+    border: solid#8c8c8c;
+}
+
+.button:hover {
+    border-radius: 1rem;
+    color: #c0bebe;
+    cursor: pointer;
+}
+
+.bottom {
+    margin-top: 3rem;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.bottom:hover {
+    cursor: text;
+}
